@@ -1,0 +1,58 @@
+@charset "UTF-8"; 
+
+body {
+  background-color: gray;
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+}
+ 
+header   {
+  padding: 40px;
+  height: 80px;
+}
+ 
+nav {
+  padding: 8px 40px;
+  background-color: black;
+  color: white;
+}
+ 
+main{
+  padding: 40px;
+  height : 400px;
+}
+a {
+  background-color: rgb(141, 165, 237);
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  border: 3px solid rgb(72, 77, 171);
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  background-color: orange;
+}
+a:active{
+  background-color: aquamarine;
+}
+ 
+footer   {
+  padding: 40px;
+  height: 40px;
+  background-color : black;
+  color: white;
+}
+table tr:nth-of-type(even) {
+  background-color: gray;
+}
